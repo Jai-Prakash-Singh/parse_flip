@@ -155,12 +155,6 @@ class parse(object):
         csvfile.close()
         
 
-             
-        
-            
-                
-            
-            
             
             
 if __name__=="__main__":
@@ -187,15 +181,3 @@ if __name__=="__main__":
 
     page = page.encode("ascii", "ignore")
     obj.collect_frame(page)
-
-
-    
-    
-      
-        
-                
-                
-         
-
-    
-        
