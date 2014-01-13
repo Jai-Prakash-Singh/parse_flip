@@ -64,8 +64,8 @@ class parse(object):
    
        
         self.data = soup.find_all("div", attrs={"class":"pu-details lastUnit"})
-        print len(self.visual)
-        print len(self.data )
+        #print len(self.visual)
+        #print len(self.data )
 
         condition = threading.Condition()
 
@@ -81,8 +81,8 @@ class parse(object):
 
 
     def collect_data(self,i,q):
-        visual_n_data = q.get()
-        print visual_n_data 
+        #visual_n_data = q.get()
+        #print visual_n_data 
             
         while True:
             visual_n_data = q.get()
